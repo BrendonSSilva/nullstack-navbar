@@ -85,13 +85,9 @@ class Home extends Nullstack {
 
   render() {
     return (
-      <>
-        
-        <Content />
-      </>
+      <Content />
     )
   }
 }
-
 
 export default Home
