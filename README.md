@@ -4,6 +4,10 @@
 
 ## How to run this Project
 
+```sh 
+git clone https://github.com/BrendonSSilva/nullstack-navbar
+```
+
 Install the dependencies:
 
 `npm install`
