@@ -10,7 +10,7 @@ class Application extends Nullstack {
     this.visible = true
   }
 
-  async initiate() { window.addEventListener("scroll", () => { window.scrollY > 0 ? this.visible = false : this.visible = true }) }
+  async hydrate() { window.addEventListener("scroll", () => { window.scrollY > 0 ? this.visible = false : this.visible = true }) }
 
   renderNavbar() {
     return (
