@@ -10,7 +10,9 @@ class Application extends Nullstack {
     this.visible = true
   }
 
-  async hydrate() { window.addEventListener("scroll", () => { window.scrollY > 0 ? this.visible = false : this.visible = true }) }
+  async hydrate() {
+    window.addEventListener("scroll", () => { this.visible = (window.scrollY === 0) });
+  }
 
   renderNavbar() {
     return (
@@ -29,7 +31,7 @@ class Application extends Nullstack {
     return (
       <body>
         <Navbar />
-        <Home route="/" greeting="Welcome to Nullstack!" />
+        <Home route="/" />
       </body>
     )
   }
