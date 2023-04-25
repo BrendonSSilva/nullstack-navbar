@@ -7,9 +7,10 @@ class Application extends Nullstack {
 
   prepare({ page }) {
     page.locale = 'en-US'
+  }
+  async initiate() {
     this.visible = true
   }
-
   async hydrate() {
     window.addEventListener("scroll", () => { this.visible = (window.scrollY === 0) });
   }
