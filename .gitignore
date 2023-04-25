@@ -5,3 +5,7 @@ package-lock.json
 yarn.lock
 .env
 .editorconfig
+spa/
+.firebase
+.firebaserc
+firebase.json
