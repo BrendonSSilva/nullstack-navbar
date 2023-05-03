@@ -1,8 +1,4 @@
 * {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
   box-sizing: border-box;
 }
 
@@ -80,7 +76,8 @@ section {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 100px 60px;
+  margin-top: 3rem;
+  justify-content: center;
 
   .shaded {
     background: #f9f9ff;

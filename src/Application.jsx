@@ -8,6 +8,7 @@ class Application extends Nullstack {
   prepare({ page }) {
     page.locale = 'en-US'
   }
+  
   async initiate() {
     this.visible = true
   }
